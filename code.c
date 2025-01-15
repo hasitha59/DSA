@@ -1,7 +1,8 @@
-Name : B.V.Sai Hasitha
-Rg.No : AP24110010908
-1.	Write a program to print the binary representation of a number using loops.
-Code:
+//Name : B.V.Sai Hasitha
+//Rg.No : AP24110010908
+
+1.Write a program to print the binary representation of a number using loops.
+//Code:
 
 #include <stdio.h>
 void printBinary(int num) {
@@ -25,13 +26,9 @@ int main() {
     return 0;
 }
 
-
-Output:
-
- 
-
 2.Write separate functions for addition, subtraction, multiplication, and division. Call these functions from a menu-driven program.
-Code:
+//Code:
+    
 #include <stdio.h> 
 #include <ctype.h>  
 void countVowelsConsonants(char *str, int *vowels, int *consonants) { 
@@ -60,7 +57,8 @@ int main() {
  
 
 3. Write separate functions for addition, subtraction, multiplication, and division. Call these functions from a menu-driven program.
-Code:
+//Code:
+    
 #include<stdio.h>
 float add(float a,float b){
 return a+b;	
@@ -109,21 +107,9 @@ return 0;
 }else{
 printf("Invalid operation\n");
 }}
- 
-
-
-
-
-
-
-
-
-
 
 4.  Write a program to print a diamond-shaped pattern using loops.
- 
-
-Code:
+//Code:
 
 #include <stdio.h>
 void printDiamond(int n) {
@@ -158,13 +144,9 @@ int main() {
     return 0;
 }
 
-Output:
- 
-
-
 
 5. Write a program to find the length of a given string using pointers.
-Code:
+//Code:
 
 #include <stdio.h> 
 int stringLength(char*str) { 
@@ -187,7 +169,7 @@ int main() {
 
 
 6. Write a function to calculate the GCD (Greatest Common Divisor) of two numbers using recursion.
-Code:
+//Code:
 
 #include <stdio.h>
 int gcd(int a, int b) {
